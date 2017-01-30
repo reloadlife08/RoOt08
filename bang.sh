@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/Bang-TG
+cd $HOME/RoOt08
 
 install() {
 	    cd tg
@@ -31,7 +31,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
 fi
    echo -e "\033[38;5;208m"
-   echo -e "     > BanG TeaM :D                  "
+   echo -e "     > RoOt08 Source :D                  "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    ./tg/tgcli -s ./bot/bot.lua $@
@@ -67,8 +67,8 @@ fi
 #  --permanent-peer-ids                 use permanent peer ids
 #			#			#			#			#			#			#			#			#			#
 #Example To launch with second profile :
-# ./bang-tg.sh -p second-profile
+# ./RoOt08.sh -p second-profile
 
 #			  OR
 
-# ./bang-tg --profile second-profile
+# ./RoOt08 --profile second-profile
