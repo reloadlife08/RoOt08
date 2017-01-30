@@ -89,18 +89,18 @@ function create_config( )
     "Filter",
     "MyInfo"
  },
-    sudo_users = {304107094},
+    sudo_users = {324656723},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[ 》 *Beyond Soures*
-》 *EDit By* `BanG TeaM :D`
+》 *EDit By* `RoOt08 :D`
 
 》 _Channel : _
-》 @BanG_TeaM
+》 @api_ch
 》 _GitHab Link :_
-》 https://github.com/bibakbg/Bang-TG
-》 `Founder` [ @Bibak_BG ]
+》 https://github.com/reloadlife08/RoOt08
+》 `Founder` [ @RoOt08 ]
 ]],
   }
   serialize_to_file(config, './data/config.lua')
