@@ -20,7 +20,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/bibakbg/Bang-TG.git
+git clone https://github.com/reloadlife08/RoOt08.git
 cd RoOt08
 chmod +x RoOt08.sh
 ./RoOt08.sh install
