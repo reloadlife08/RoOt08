@@ -1,4 +1,3 @@
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۶]
 -- Begin warning.lua
 -- This plugin match with Beyound Team source
 
@@ -131,10 +130,7 @@ local function unWarnAllUser(user_id, chat_id)
    return '_This user don\'t have warning._'
   else
    redis:hset(user_id..'warning'..chat_id, chat_id, '0')
-   tdcli.sendMessage(chat_id, 0,
-
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۶]
-1, '_User Warnings Has Been Cleard!_', 1, 'md')
+   tdcli.sendMessage(chat_id, 0 1, '_User Warnings Has Been Cleard!_', 1, 'md')
   end
  end
 end
@@ -272,10 +268,7 @@ local function run(msg, matches)
     tdcli_function ({
      ID = "SearchPublicChat",
      username_ = matches[2]
-     }, unWarnByUsername, {chat_
-
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۶]
-id=msg.chat_id_,username=matches[2]})
+     }, unWarnByUsername, {chat_id=msg.chat_id_,username=matches[2]})
    end
   end
   if matches[1]:lower() == 'unwarnall' then
