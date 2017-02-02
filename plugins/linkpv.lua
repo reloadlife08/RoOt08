@@ -1,4 +1,3 @@
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۷]
 do
 
 function run(msg, matches)
