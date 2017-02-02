@@ -130,7 +130,7 @@ local function unWarnAllUser(user_id, chat_id)
    return '_This user don\'t have warning._'
   else
    redis:hset(user_id..'warning'..chat_id, chat_id, '0')
-   tdcli.sendMessage(chat_id, 0 1, '_User Warnings Has Been Cleard!_', 1, 'md')
+   tdcli.sendMessage(chat_id,0,1, '_User Warnings Has Been Cleard!_', 1, 'md')
   end
  end
 end
