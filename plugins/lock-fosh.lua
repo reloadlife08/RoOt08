@@ -1,4 +1,3 @@
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۷]
 local function pre_process(msg)
  local chkfosh = redis:hget('settings:fosh',msg.chat_id_)
  if not chkfosh then
