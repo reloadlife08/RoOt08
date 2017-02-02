@@ -1,4 +1,3 @@
-No Name, [۰۲.۰۲.۱۷ ۱۱:۵۸]
 local function pre_process(msg)
   local hash = 'mute_time:'..msg.chat_id_
   if redis:get(hash) and gp_type(msg.chat_id_) == 'channel' and not is_admin(msg)  then
