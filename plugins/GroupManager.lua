@@ -2339,11 +2339,11 @@ end
 
 if not lang then
 local settings = data[tostring(target)]["settings"] 
- text = "*Group Settings:*\n_Lock edit :_ *"..settings.lock_edit.."*\n_Lock links :_ *"..settings.lock_link.."*\n_Lock tags :_ *"..settings.lock_tag.."*\n_Lock flood :_ *"..settings.flood.."*\n_Lock spam :_ *"..settings.lock_spam.."*\n_Lock mention :_ *"..settings.lock_mention.."*\n_Lock arabic :_ *"..settings.lock_arabic.."*\n_Lock webpage :_ *"..settings.lock_webpage.."*\n_Lock markdown :_ *"..settings.lock_markdown.."*\n_Group welcome :_ *"..settings.welcome.."*\n_Bots protection :_ *"..settings.lock_bots.."*\n_Flood sensitivity :_ *"..NUM_MSG_MAX.."*\n*____________________*\n *Group Mute List* : \n_Mute all : _ *"..settings.mute_all.."*\n_Mute gif :_ *"..settings.mute_gif.."*\n_Mute text :_ *"..settings.mute_text.."*\n_Mute inline :_ *"..settings.mute_inline.."*\n_Mute game :_ *"..settings.mute_game.."*\n_Mute photo :_ *"..settings.mute_photo.."*\n_Mute video :_ *"..settings.mute_video.."*\n_Mute audio :_ *"..settings.mute_audio.."*\n_Mute voice :_ *"..settings.mute_voice.."*\n_Mute sticker :_ *"..settings.mute_sticker.."*\n_Mute contact :_ *"..settings.mute_contact.."*\n_Mute forward :_ *"..settings.mute_forward.."*\n_Mute location :_ *"..settings.mute_location.."*\n_Mute document :_ *"..settings.mute_document.."*\n_Mute TgService :_ *"..settings.mute_tgservice.."*\n*____________________*\n*Bot channel*: @BeyondTeam\n*Group Language* : *EN*"
+ text = "*Group Settings:*\n_Lock edit :_ *"..settings.lock_edit.."*\n_Lock links :_ *"..settings.lock_link.."*\n_Lock tags :_ *"..settings.lock_tag.."*\n_Lock flood :_ *"..settings.flood.."*\n_Lock spam :_ *"..settings.lock_spam.."*\n_Lock mention :_ *"..settings.lock_mention.."*\n_Lock arabic :_ *"..settings.lock_arabic.."*\n_Lock webpage :_ *"..settings.lock_webpage.."*\n_Lock markdown :_ *"..settings.lock_markdown.."*\n_Group welcome :_ *"..settings.welcome.."*\n_Bots protection :_ *"..settings.lock_bots.."*\n_Flood sensitivity :_ *"..NUM_MSG_MAX.."*\n*____________________*\n *Group Mute List* : \n_Mute all : _ *"..settings.mute_all.."*\n_Mute gif :_ *"..settings.mute_gif.."*\n_Mute text :_ *"..settings.mute_text.."*\n_Mute inline :_ *"..settings.mute_inline.."*\n_Mute game :_ *"..settings.mute_game.."*\n_Mute photo :_ *"..settings.mute_photo.."*\n_Mute video :_ *"..settings.mute_video.."*\n_Mute audio :_ *"..settings.mute_audio.."*\n_Mute voice :_ *"..settings.mute_voice.."*\n_Mute sticker :_ *"..settings.mute_sticker.."*\n_Mute contact :_ *"..settings.mute_contact.."*\n_Mute forward :_ *"..settings.mute_forward.."*\n_Mute location :_ *"..settings.mute_location.."*\n_Mute document :_ *"..settings.mute_document.."*\n_Mute TgService :_ *"..settings.mute_tgservice.."*\n*____________________*\n*Bot By*: @MrBuG08\n*Group Language* : *EN*"
 else
 
 local settings = data[tostring(target)]["settings"]
- text = "*تنظیمات گروه:*\n_قفل ویرایش پیام :_ *"..settings.lock_edit.."*\n_قفل لینک :_ *"..settings.lock_link.."*\n_قفل تگ :_ *"..settings.lock_tag.."*\n_قفل پیام مکرر :_ *"..settings.flood.."*\n_قفل هرزنامه :_ *"..settings.lock_spam.."*\n_قفل فراخوانی :_ *"..settings.lock_mention.."*\n_قفل عربی :_ *"..settings.lock_arabic.."*\n_قفل صفحات وب :_ *"..settings.lock_webpage.."*\n_قفل فونت :_ *"..settings.lock_markdown.."*\n_پیام خوشآمد گویی :_ *"..settings.welcome.."*\n_محافظت در برابر ربات ها :_ *"..settings.lock_bots.."*\n_حداکثر پیام مکرر :_ *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n_بیصدا همه : _ *"..settings.mute_all.."*\n_بیصدا تصاویر متحرک :_ *"..settings.mute_gif.."*\n_بیصدا متن :_ *"..settings.mute_text.."*\n_بیصدا کیبورد شیشه ای :_ *"..settings.mute_inline.."*\n_بیصدا بازی های تحت وب :_ *"..settings.mute_game.."*\n_بیصدا عکس :_ *"..settings.mute_photo.."*\n_بیصدا فیلم :_ *"..settings.mute_video.."*\n_بیصدا آهنگ :_ *"..settings.mute_audio.."*\n_بیصدا صدا :_ *"..settings.mute_voice.."*\n_بیصدا برچسب :_ *"..settings.mute_sticker.."*\n_بیصدا مخاطب :_ *"..settings.mute_contact.."*\n_بیصدا نقل قول :_ *"..settings.mute_forward.."*\n_بیصدا موقعیت :_ *"..settings.mute_location.."*\n_بیصدا اسناد :_ *"..settings.mute_document.."*\n_بیصدا خدمات تلگرام :_ *"..settings.mute_tgservice.."*\n*____________________*\n*Bot channel*: @BeyondTeam\n_زبان سوپرگروه_ : *FA*"
+ text = "*تنظیمات گروه:*\n_قفل ویرایش پیام :_ *"..settings.lock_edit.."*\n_قفل لینک :_ *"..settings.lock_link.."*\n_قفل تگ :_ *"..settings.lock_tag.."*\n_قفل پیام مکرر :_ *"..settings.flood.."*\n_قفل هرزنامه :_ *"..settings.lock_spam.."*\n_قفل فراخوانی :_ *"..settings.lock_mention.."*\n_قفل عربی :_ *"..settings.lock_arabic.."*\n_قفل صفحات وب :_ *"..settings.lock_webpage.."*\n_قفل فونت :_ *"..settings.lock_markdown.."*\n_پیام خوشآمد گویی :_ *"..settings.welcome.."*\n_محافظت در برابر ربات ها :_ *"..settings.lock_bots.."*\n_حداکثر پیام مکرر :_ *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n_بیصدا همه : _ *"..settings.mute_all.."*\n_بیصدا تصاویر متحرک :_ *"..settings.mute_gif.."*\n_بیصدا متن :_ *"..settings.mute_text.."*\n_بیصدا کیبورد شیشه ای :_ *"..settings.mute_inline.."*\n_بیصدا بازی های تحت وب :_ *"..settings.mute_game.."*\n_بیصدا عکس :_ *"..settings.mute_photo.."*\n_بیصدا فیلم :_ *"..settings.mute_video.."*\n_بیصدا آهنگ :_ *"..settings.mute_audio.."*\n_بیصدا صدا :_ *"..settings.mute_voice.."*\n_بیصدا برچسب :_ *"..settings.mute_sticker.."*\n_بیصدا مخاطب :_ *"..settings.mute_contact.."*\n_بیصدا نقل قول :_ *"..settings.mute_forward.."*\n_بیصدا موقعیت :_ *"..settings.mute_location.."*\n_بیصدا اسناد :_ *"..settings.mute_document.."*\n_بیصدا خدمات تلگرام :_ *"..settings.mute_tgservice.."*\n*____________________*\n*Bot channel : @MrBuG08روه_ : *FA*"
 end
 return text
 end
@@ -2713,9 +2713,9 @@ end
   if matches[1] == "rules" then
  if not data[tostring(chat)]['rules'] then
    if not lang then
-     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@BeyondTeam"
+     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@MrBuG08"
     elseif lang then
-       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@BeyondTeam"
+       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@MrBuG08"
  end
         else
      rules = "*Group Rules :*\n"..data[tostring(chat)]['rules']
@@ -2919,9 +2919,9 @@ local lang = redis:get(hash)
 rules = administration[arg.chat_id]['rules']
 else
    if not lang then
-     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@BeyondTeam"
+     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@MrBuG08"
     elseif lang then
-       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@BeyondTeam"
+       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@MrBuG08"
  end
 end
 if data.username_ then
@@ -3009,7 +3009,7 @@ patterns ={
 run=run,
 pre_process = pre_process
 }
---end groupmanager.lua #beyond team#
+--end groupmanager.lua #MrBuG08 team#
 (msg) then if tonumber(matches[2]) < 1 or tonumber(matches[2]) > 50 then
     return "_Wrong number, range is_ *[1-50]*"
       end
@@ -3191,7 +3191,7 @@ end
 if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
-*Beyond Bot Commands:*
+*MrBuG08Bot Commands:*
 
 *!setowner* [username|id|reply] 
 _Set Group Owner(Multi Owner)_
